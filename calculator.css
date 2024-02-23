@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+html {
+  background-image: url(https://media.istockphoto.com/id/1419844586/vector/stem-blue-horizontal-frame-vector-education-bright-illustration.jpg?s=612x612&w=0&k=20&c=-A1eYLYulujNsiM26lkVy7qMT_Hp82N5EtKHSFRmigk=)
+}
+
+
+h1 {
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: pink;
+}
+
+.button {
+  width: 66px;
+  padding: 25px;
+  margin: 0 3px;
+  border: 2px solid white;
+  color: white;
+  background: transparent;
+  box-shadow: 0px 3px 15px rgba(113, 115, 119, 0.5);
+  font-weight: bold;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 25px;
+}
+
+.button:hover {
+  background-color: #3e8e41
+}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mx-auto {
+  margin: auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.container {
+  justify-content: center;
+  align-items: center;
+}
+
+.row {
+  margin: 7px;
+}
+
+.row input {
+  padding: 10px 0px;
+  margin: 0px;
+  border: 2px solid white;
+  border-radius: 5px;
+  font-size: 40px;
+  color: white;
+  text-align: right;
+  width: 300px;
+  height: 50px;
+  background: transparent;
+  box-shadow: 0px 3px 15px rgba(113, 115, 119, 0.5);
+  font-family: "Noto Sans", sans-serif;
+}
+
+.btn-1 {
+  color: #f90606;
+  font-weight: bold;
+}
+
+.btn-4 {
+  color: green;
+  font-weight: bold;
+}
+
+.btn-5 {
+  background-color: orange;
+  font-weight: bold;
+}
+
+
+.container {
+  height: 85vh;
+  width: 30vw;
+  border: 2px solid white;
+}
